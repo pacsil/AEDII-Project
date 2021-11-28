@@ -1,0 +1,3 @@
+# Detalhes sobre o projeto aqui realizado
+
+O projeto consiste em um protótipo de SGBD distribuído que use árvores B para organização de índices. Nos arquivos btree.cpp e btree.h temos os códigos referentes à criação e implementação de uma estrutura de dados btree com as operações de buscar, inserir e deletar. Já no arquivo rede.cpp temos a implementação de um mock de rede de SGDB que permite a criação de um banco de dados em um dos endereços da rede e a busca por chaves nesses banco. Por simplicidade foram assumidas as seguintes hipóteses: todos os bancos estão conectados e a rede só tem 8 endereços.
